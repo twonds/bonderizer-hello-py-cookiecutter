@@ -4,7 +4,7 @@
 # consumer and producer. This has to be interchangable.
 # Is an agent interface class the way to go?
 # https://opensource.com/article/19/9/zopeinterface-python-package
-from zope.interface import Interface
+import zope
 
 # Is this overkill? We want an interface and possibly a registry.
 # https://zopeinterface.readthedocs.io/en/latest/adapter.html
